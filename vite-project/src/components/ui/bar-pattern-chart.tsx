@@ -1,10 +1,6 @@
 
 import { Area, AreaChart, CartesianGrid, XAxis } from "recharts";
 
-import {
-  Card,
-  CardContent,
-} from "@/components/ui/card";
 
 import type { ChartConfig } from "@/components/ui/chart"
 
@@ -13,8 +9,7 @@ import {
   ChartTooltip,
   ChartTooltipContent,
 } from "@/components/ui/chart";
-import { Badge } from "@/components/ui/badge";
-import { TrendingDown } from "lucide-react";
+
 
 const chartData = [
   { desktop: 342},
