@@ -1,7 +1,7 @@
 import { BsArrowUpRightCircleFill } from "react-icons/bs";
 import { ChartBarStacked } from "./ui/stackCharts";
 
-const options = ["Monthly", "Yearly", "Daily"];
+const options = ["Monthly"];
 
 const Statistics = () => {
   return (
@@ -15,7 +15,7 @@ const Statistics = () => {
 
         {/* Dropdown */}
         <div className="w-2/6 text-sm pl-2">
-          <select className="border border-slate-50 text-slate-50 rounded-xl px-4 py-1">
+          <select className="border border-slate-50 text-slate-50 rounded-xl px-4 py-1 cursor-pointer">
             {options.map((item, key) => (
               <option key={key} value={item} className="text-black">
                 {item}
